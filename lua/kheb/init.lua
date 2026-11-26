@@ -1,4 +1,5 @@
 require("kheb.remap")
+require("kheb.win_sync").setup()
 require("kheb.lazy")
 
 vim.env.PATH = vim.fn.expand("$HOME/.local/bin") .. ":" .. vim.env.PATH
